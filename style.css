@@ -1,83 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-html, body{
-    min-height:100%;
-    min-width:100%;
+html, body {
+    min-height: 100%;
+    min-width: 100%;
 }
-body{
-    background: rgb(32,4,12);
-    background: linear-gradient(90deg, rgba(32,4,12,1) 0%, rgba(173,30,75,1) 100%);
+
+body {
+    background-image: linear-gradient(90deg, rgba(32, 4, 12, 1) 0%, rgba(173, 30, 75, 1) 100%);
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px
 }
-.logo{
+
+.logo {
     width: 350px;
 }
 
-.alignlogo{
+.alignlogo {
     text-align: center;
     margin-top: 40px;
 }
 
-.Contato{
+.Contato {
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 50px
 }
 
-.list-itens{
+.list-itens {
     list-style: none;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 50px 0 20px 0;
     align-items: center;
 }
 
-.list-itens h3{
-    color: rgb(173,30,75) ;
-    margin: 5px 5px;
+.list-itens h3 {
+    color: whitesmoke;
+    margin-bottom: 5px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-shadow: 0 0 5px black;
 }
 
-.list-itens p{
-    color:whitesmoke;
-    margin: 5px;
+.list-itens p {
+    color: whitesmoke;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-.list-itens li a{
+
+.list-itens li a {
     text-decoration: none;
 }
 
-.list-itens li{
-    background: rgb(23,3,9);
-    background: linear-gradient(90deg, rgba(23,3,9,1) 0%, rgba(110,44,67,1) 100%);
+.list-itens li {
+    background-color: rgba(110, 44, 67, 0.2);
     margin-bottom: 30px;
-    height: 80px;
     border-radius: 10px;
     box-shadow: 0 0 20px black;
+    transition: .3s ease-in;
+    padding: 20px;
 }
 
-.list-itens li:hover{
-    background-color: white;
+.list-itens li:hover {
+    background-color: rgba(245, 245, 245, 0.2);
+    transition: .3s ease-out
 }
-
-
