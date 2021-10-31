@@ -1,10 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 html, body{
-    height:100%
+    min-height:100%;
+    min-width:100%;
 }
 body{
     background: rgb(32,4,12);
     background: linear-gradient(90deg, rgba(32,4,12,1) 0%, rgba(173,30,75,1) 100%);
 }
-.logo{
-    width: 500px
+.container{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px
 }
+.logo{
+    width: 350px;
+}
+
+.alignlogo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Contato{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px
+}
+
+.list-itens{
+    list-style: none;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.list-itens h3{
+    color: rgb(173,30,75) ;
+    margin: 5px 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 5px black;
+}
+
+.list-itens p{
+    color:whitesmoke;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.list-itens li a{
+    text-decoration: none;
+}
+
+.list-itens li{
+    background: rgb(23,3,9);
+    background: linear-gradient(90deg, rgba(23,3,9,1) 0%, rgba(110,44,67,1) 100%);
+    margin-bottom: 30px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.list-itens li:hover{
+    background-color: white;
+}
+
+
