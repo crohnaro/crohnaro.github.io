@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-    width: 450px;
+    width: 100%;
 }
 
 .alignlogo {
@@ -93,6 +93,6 @@ body {
 }
 
 #problema:hover{
-    background-color: rgba(212, 182, 182, 0.2);
+    background-color: rgba(245, 245, 245, 0.2);
     transition: .3s ease-out
 }
